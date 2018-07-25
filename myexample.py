@@ -1,7 +1,4 @@
-my_var = "Hello World"
-print(my_var[:5])
-
-print(100 == 1 or 2 == 2)
-
-if True:
-    print("It's true")
+st = 'Print only the words that start with s in this sentence'
+for word in st.split():
+    if word.startswith('s'):
+        print(word)
