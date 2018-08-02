@@ -38,4 +38,13 @@ class Dog(Animal):
         Animal.__init__(self)
         print("Dog Created")
 
-mydog = Dog()
+    def who_am_i(self):
+        print("I am a dog")
+
+# mydog = Dog()
+# mydog.who_am_i()
+
+class BankAccount():
+    def __init__(self,owner,balance):
+        self.owner = owner
+        self.balance = balance
